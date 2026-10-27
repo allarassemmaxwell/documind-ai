@@ -1,0 +1,15 @@
+{
+    "subtitle": "Your documents. Your answers.",
+    "description": "Upload your documents and get clear answers grounded in their content.",
+    "upload": "Upload a document",
+    "uploadHint": "PDF and Word documents",
+    "question": "Ask your documents",
+    "questionHint": "Your questions will appear here once document processing is ready.",
+    "button": "Ask a question",
+    "status": "Document intelligence, made simple.",
+    "uploadComingSoon": "Document upload is coming next.",
+    "askInLanguage": "Ask questions in English or French and get answers with document references.",
+    "backendChecking": "Checking backend...",
+    "backendHealthy": "Backend connected",
+    "backendUnavailable": "Backend unavailable"
+}

@@ -6,10 +6,10 @@
 - [x] Create .gitignore.
 - [x] Create PROJECT_CONTEXT.md.
 - [x] Create ARCHITECTURE.md.
-- [ ] Create DECISIONS.md.
-- [ ] Review project documentation.
-- [ ] Make the first commit.
-- [ ] Push the feature branch to GitHub.
+- [x] Create DECISIONS.md.
+- [x] Review project documentation.
+- [x] Make the first commit.
+- [x] Push the feature branch to GitHub.
 
 ## Phase 1: Development Environment
 - [ ] Create the frontend using Next.js and TypeScript.
@@ -57,6 +57,25 @@
 - [ ] Evaluate free hosting options.
 - [ ] Deploy a demonstrable version.
 - [ ] Publish contribution guidelines and license.
+
+## Phase 7 — MLOps, Evaluation, and Production Monitoring
+
+- [ ] Add automated tests for the backend, frontend, and RAG pipeline.
+- [ ] Configure GitHub Actions for continuous integration (CI).
+- [ ] Add code quality checks and automated test execution.
+- [ ] Implement structured application logging and error tracking.
+- [ ] Add API health checks and basic operational metrics.
+- [ ] Build a bilingual evaluation dataset covering English and French questions.
+- [ ] Evaluate retrieval quality, answer correctness, and citation accuracy.
+- [ ] Track embedding model and LLM versions.
+- [ ] Monitor latency, errors, resource usage, and AI inference costs where applicable.
+- [ ] Add experiment tracking when model development requires it.
+- [ ] Containerize services with Docker and document reproducible setup.
+- [ ] Establish a deployment process with environment-specific configuration.
+- [ ] Document privacy-aware logging and avoid exposing document contents or secrets.
+
+**Principle:** Measure quality and reliability before claiming the system is production-ready. Start with free tools and local monitoring where practical.
+
 
 ## Working Rules
 - Complete one small task at a time.
