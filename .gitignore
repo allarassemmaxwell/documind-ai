@@ -32,3 +32,10 @@ htmlcov/
 # Local databases and uploaded documents
 *.sqlite3
 uploads/
+
+# macOS
+.DS_Store
+
+# Python bytecode
+__pycache__/
+*.py[cod]

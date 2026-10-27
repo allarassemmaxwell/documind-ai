@@ -1,0 +1,16 @@
+
+{
+    "subtitle": "Vos documents. Vos réponses.",
+    "description": "Importez vos documents et obtenez des réponses claires basées sur leur contenu.",
+    "upload": "Importer un document",
+    "uploadHint": "Documents PDF et Word",
+    "question": "Interrogez vos documents",
+    "questionHint": "Vos questions apparaîtront ici lorsque le traitement des documents sera prêt.",
+    "button": "Poser une question",
+    "status": "L'intelligence documentaire, en toute simplicité.",
+    "uploadComingSoon": "L'importation de documents sera bientôt disponible.",
+    "askInLanguage": "Posez vos questions en anglais ou en français et obtenez des réponses avec des références aux documents.",
+    "backendChecking": "Vérification du serveur...",
+    "backendHealthy": "Serveur connecté",
+    "backendUnavailable": "Serveur indisponible"
+}
