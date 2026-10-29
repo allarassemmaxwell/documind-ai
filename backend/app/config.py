@@ -9,6 +9,14 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 class Settings(BaseSettings):
     postgres_password: str
+    jwt_secret_key: str
+    jwt_access_token_expire_minutes: int = 30
+
+    environment: str = "development"
+
+    @property
+    def cookie_secure(self) -> bool:
+        return self.environment.lower() == "production"
 
     model_config = SettingsConfigDict(
         env_file=PROJECT_ROOT / ".env",

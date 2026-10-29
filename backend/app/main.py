@@ -1,7 +1,7 @@
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from .document_processor import extract_text
-
+from app.auth import router as auth_router
 
 
 app = FastAPI(
@@ -9,6 +9,8 @@ app = FastAPI(
     description="Multilingual document question-answering platform",
     version="0.2.0",
 )
+
+app.include_router(auth_router)
 
 app.add_middleware(
     CORSMiddleware,
